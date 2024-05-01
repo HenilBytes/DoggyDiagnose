@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = 'DogDiseaseClassificationCNN'
+project_name = 'PoultryDiseaseClassificationCNN'
 
 list_of_folder = [
     ".github/workflows/.gitkeep",
