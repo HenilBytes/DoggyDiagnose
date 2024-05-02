@@ -1,4 +1,4 @@
-# DoggyDiagnose
+# PoultryDiagnose
 
 ## Workflows
 
