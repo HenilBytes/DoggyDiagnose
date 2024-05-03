@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True #it involve applying transformation such as rotation, flipping, scaling , or shifting to training image
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16 #model select 16 images per itiraation 
+INCLUDE_TOP: False # top (fully connected) layers of the VGG16 model will be included during training if it true. here it's not. it helps model to learn pattern deeply.
+EPOCHS: 1 #model learn the data only once. the number of time entire dataset will be passed forward or backword through neural network.
+CLASSES: 4 #number of categories in dataset
+WEIGHTS: imagenet #specifies the initialization weights for the model.  'imagenet' means that the model will be initialized with pre-trained weights from the ImageNet dataset.
+LEARNING_RATE: 0.01 #A learning rate of 0.01 means that the model's parameters will be updated by 1% of the gradient value in each optimization step.
